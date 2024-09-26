@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(169, 196, 235);
+}
+
+.navbar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+    /*top and bottom spacing*/
+
+}
+
+.navbar a {
+    margin: 6%;
+    /*horizontal spacing*/
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+}
+
+.footer a {
+    margin: 100px;
+    color: white;
+}
+
+.about {
+    margin: auto;
+    margin-top: 30px;
+    height: 132px;
+    width: auto;
+    background-color: white;
+    border: 1px solid black;
+    align-items: left;
+    padding: 5px;
+}
+
+.about img {
+    float: inline-start;
+    padding: 5px;
+    margin-right: 5px;
+    width: 25%;
+    height: 120px;
+}
+
+.name {
+    width: 15%;
+    float: inline-start;
+    margin-right: 80px;
+}
+
+.name p {
+    text-align: left;
+}
+
+.text p {
+    margin-top: .5px;
+    margin-bottom: .5px;
+}
+
+.words {
+    font-size: small;
+}
+
+.header {
+    font-size: medium;
+}
+
+.section p {
+    float: left;
+    margin: auto;
+    padding: 5px;
+}
+
+.title1 {
+    width: 50%;
+}
+
+.title2 {
+    width: auto;
+}
+
+.title3 {
+    width: 64%
+}
+
+.skills {
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+    width: 49%;
+    height: 70px;
+}
+
+.experience {
+    float: right;
+    background-color: white;
+    border: 1px solid black;
+    width: 49%;
+    height: 70px;
+}
+
+.project {
+    width: 70%;
+}
+
+.oval {
+    float: left;
+    width: 30%;
+    height: 70px;
+    margin-right: 1%;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.oval p {
+    padding: 7%;
+}
+
+.blog {
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+    width: 25.5%;
+    height: 67px;
+}
+
+.section img {
+    position: relative;
+    width: 8.5%;
+    float: right;
+}
