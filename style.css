@@ -1,150 +1,167 @@
-body {
-    background-color: rgb(169, 196, 235);
+:root {
+    --color1:white;
+    --color2:rgb(233, 239, 236);
+    --color3:rgb(196, 218, 210);
+    --color4:rgb(106, 156, 137);
+    --color5: rgb(119, 174, 166);
+    --color6: rgb(63, 93, 89);
 }
 
+body {
+    background-color: var(--color1);
+}
 .navbar {
     position: absolute;
     top: 0%;
     left: 0%;
     right: 0%;
+    height: 20px;
+    background-color: var(--color5);
+    border-bottom: 1px solid black;
 
-    background-color: black;
     text-align: center;
-    padding: 2px;
-    /*top and bottom spacing*/
-
 }
 
-.navbar a {
-    margin: 6%;
-    /*horizontal spacing*/
-    color: rgb(255, 255, 255);
-}
-
-.footer {
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-
-    background-color: black;
-    text-align: center;
-    padding: 2px;
-}
-
-.footer a {
-    margin: 100px;
-    color: white;
+.navbar a, footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 5%;
 }
 
 .about {
-    margin: auto;
-    margin-top: 30px;
-    height: 132px;
-    width: auto;
-    background-color: white;
+    margin: 5px;
+    margin-top: 33px;
+    
+    background-color: var(--color2);
     border: 1px solid black;
-    align-items: left;
+    padding: 2%;
+}
+
+.aboutTxt{
+    float: right;
+    width: 48%;
+}
+
+.aboutTxt p{
     padding: 5px;
-}
-
-.about img {
-    float: inline-start;
-    padding: 5px;
-    margin-right: 5px;
-    width: 25%;
-    height: 120px;
-}
-
-.name {
-    width: 15%;
-    float: inline-start;
-    margin-right: 80px;
-}
-
-.name p {
-    text-align: left;
-}
-
-.text p {
-    margin-top: .5px;
-    margin-bottom: .5px;
-}
-
-.words {
-    font-size: small;
+    margin: 5px;
+    margin-top: -9px;
 }
 
 .header {
-    font-size: medium;
+    font-size: large;
 }
 
-.section p {
+.about img, .aboutPicTxt {
+    width: 48%;
+}
+.aboutPicTxt {
+    text-align: center;
+}
+
+.aboutPicTxt p {
+    font-size: large;
+    margin: 5px;
+}
+
+.skills, .skillsHeader{
     float: left;
-    margin: auto;
-    padding: 5px;
+    width: 47%;
+    margin: 5px;
 }
 
-.title1 {
-    width: 50%;
+.experience, .experienceHeader {
+    float: right;
+    width: 47%;
+    margin: 5px;
+    
 }
 
-.title2 {
-    width: auto;
+.skills, .experience {
+    margin-top: 0px;
+    border: 1px solid black;
 }
-
-.title3 {
-    width: 64%
+.skillsHeader, .experienceHeader {
+    margin-left: 10px;
 }
 
 .skills {
-    float: left;
-    background-color: white;
-    border: 1px solid black;
-    width: 49%;
-    height: 70px;
+    background-color: var(--color4);
 }
 
 .experience {
-    float: right;
-    background-color: white;
-    border: 1px solid black;
-    width: 49%;
-    height: 70px;
+    background-color: var(--color4);
 }
 
-.project {
-    width: 70%;
+.skills p, .experience p {
+    padding: 5px;
+    margin: 5px;
+}
+
+.project, .projectHeader {
+    float: left;
+    width: 57.5%;
+    margin: 5px;
 }
 
 .oval {
     float: left;
     width: 30%;
-    height: 70px;
-    margin-right: 1%;
+    height: 300px;
+    margin: 1%;
+    text-align: center;
 
-    background-color: white;
+    background-color: var(--color5);
     border: 1px solid black;
     border-radius: 50%;
-    box-sizing: border-box;
+}
+
+.oval img{
+    margin-top: 15%;
+    width: 50%;
+}
+
+.oval p {
+    margin-top: 0%;
+    padding: 5px;
+}
+
+.blog, .blogHeader {
+    float: right;
+    width: 38%;
+    margin: 5px;
+    text-align: center;
+}
+
+.blogHeader, .projectHeader {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.blog p {
+    border: 1px solid black;
+    background-color: var(--color3);
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 220px;
+
+    margin-top: 0%;
+    padding: 5px;
+}
+
+.blog img {
+    width: 20%;
+    padding: 10px;
+}
+
+footer { 
+    margin-top: -10px;
+    float: left;
+    width: 100%;
+    height: 20px;
+    background-color: var(--color5);
+    border-top: 1px solid black;
 
     text-align: center;
 }
 
-.oval p {
-    padding: 7%;
-}
-
-.blog {
-    float: left;
-    background-color: white;
-    border: 1px solid black;
-    width: 25.5%;
-    height: 67px;
-}
-
-.section img {
-    position: relative;
-    width: 8.5%;
-    float: right;
-}
